@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  },
+  "scripts": {
+    "css-build": "tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "build-css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "dependencies": {
+    "owl.carousel": "^2.3.4"
+  }
+
+
+}
